@@ -15,8 +15,8 @@ const main = async () => {
             flightNumber: 101,
             price: 500,
             numberOfSeats: 300,
-            departingAirport: jfkAirport._id,
-            arrivalAirport: lhrAirport._id,
+            departingAirport: jfkAirport[0]._id,
+            arrivalAirport: lhrAirport[0]._id,
             departureDateTime: '2024-05-23T14:30:00Z'
         },
         {
@@ -24,8 +24,8 @@ const main = async () => {
             flightNumber: 102,
             price: 500,
             numberOfSeats: 300,
-            departingAirport: lhrAirport._id,
-            arrivalAirport: jfkAirport._id,
+            departingAirport: lhrAirport[0]._id,
+            arrivalAirport: jfkAirport[0]._id,
             departureDateTime: '2024-05-24T14:30:00Z'
         },
         {
@@ -33,8 +33,8 @@ const main = async () => {
             flightNumber: 201,
             price: 600,
             numberOfSeats: 300,
-            departingAirport: jfkAirport._id,
-            arrivalAirport: berAirport._id,
+            departingAirport: jfkAirport[0]._id,
+            arrivalAirport: berAirport[0]._id,
             departureDateTime: '2024-05-25T14:30:00Z'
         },
         {
@@ -42,8 +42,8 @@ const main = async () => {
             flightNumber: 202,
             price: 600,
             numberOfSeats: 300,
-            departingAirport: berAirport._id,
-            arrivalAirport: jfkAirport._id,
+            departingAirport: berAirport[0]._id,
+            arrivalAirport: jfkAirport[0]._id,
             departureDateTime: '2024-05-26T14:30:00Z'
         },
         {
@@ -51,8 +51,8 @@ const main = async () => {
             flightNumber: 301,
             price: 12,
             numberOfSeats: 150,
-            departingAirport: berAirport._id,
-            arrivalAirport: puyAirport._id,
+            departingAirport: berAirport[0]._id,
+            arrivalAirport: puyAirport[0]._id,
             departureDateTime: '2024-05-27T14:30:00Z'
         },
         {
@@ -60,8 +60,8 @@ const main = async () => {
             flightNumber: 302,
             price: 12,
             numberOfSeats: 150,
-            departingAirport: puyAirport._id,
-            arrivalAirport: berAirport._id,
+            departingAirport: puyAirport[0]._id,
+            arrivalAirport: berAirport[0]._id,
             departureDateTime: '2024-05-28T14:30:00Z'
         },
         {
@@ -69,8 +69,8 @@ const main = async () => {
             flightNumber: 401,
             price: 150,
             numberOfSeats: 150,
-            departingAirport: puyAirport._id,
-            arrivalAirport: lhrAirport._id,
+            departingAirport: puyAirport[0]._id,
+            arrivalAirport: lhrAirport[0]._id,
             departureDateTime: '2024-05-29T14:30:00Z'
         },
         {
@@ -78,8 +78,8 @@ const main = async () => {
             flightNumber: 402,
             price: 150,
             numberOfSeats: 150,
-            departingAirport: lhrAirport._id,
-            arrivalAirport: puyAirport._id,
+            departingAirport: lhrAirport[0]._id,
+            arrivalAirport: puyAirport[0]._id,
             departureDateTime: '2024-05-30T14:30:00Z'
         }
     ]
